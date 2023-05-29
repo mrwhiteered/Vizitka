@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Мой сайт визитка 22.01</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+</head>
+
+<body>
+<header id="header" class="header">
+	<div class="container container__header">
+		<h1 class="logo">DB</h1>
+		<nav class="nav">
+			<ul class="navList">
+				<li class="nav__item"><a href="#hero-block" class="nav__list" >ГЛАВНАЯ</a> </li>
+				<li class="nav__item"><a href="#about" class="nav__list" >ОБ АВТОРЕ</a> </li>
+				<li class="nav__item"><a href="#video" class="nav__list" >ВИДЕО</a> </li>
+				<li class="nav__item"><a href="#gallary" class="nav__list" >ГАЛЕРЕЯ</a> </li>
+				<li class="nav__item"><a href="#footer" class="nav__list" >КОНТАКТЫ</a> </li>
+			</ul>
+
+
+		</nav>
+		
+		<button class="burger" onclick="BurgerClick()">
+			<div class="burger__line burger__line_1"></div>
+			<div class="burger__line burger__line_2"></div>
+			<div class="burger__line burger__line_3"></div>
+		</button>
+
+	</div>
+</header>
+
+
+<main class="main">
+
+	<section id="hero-block" class="hero-block">
+		<div class="container container__hero-block">
+			<div class="hero__block__img">
+				<img class="hero__block__images" src="image/heroBlock1.png" />
+				<img class="hero__block__images" src="image/heroBlock2.png" />
+				<img class="hero__block__images" src="image/heroBlock3.png" />
+			</div>
+			<div class="hero__block__contect">
+				<h2 class="hero__block__title">Web Developer</h2>
+				<p class="hero__block__text">Разрабатываю веб-приложения, одностроничные сайты, сайты визитки, интернет магазины и т.д.  </p>
+				<button class="hero__block__botton">Кнопка</button>
+			</div>
+		</div>
+		<div class="squre">
+			<div class="sq red"></div>
+			<div class="sq blue"></div>
+			<div class="sq bordov"></div>
+			<div class="sq yellow"></div>
+		</div>
+	</section>
+
+
+
+	<section id="about" class="about">
+		<div class="container container__about">
+			<div class="about__top">
+				<h2 class="title__about">Мои навыки</h2>
+				<p class="text__about">Стек моих технологий на много больше, но я выделил самые главные</p>
+			</div>
+			<div class="about__down">
+				<div class="about__left">
+					<h2 class="about__skills">Мои скилы</h2>
+					<ul class="list__about">
+						<li class="item__about">
+							<h3 class="sub__item">Java Script</h3>
+
+							<div class="grey__line">
+								<div class="red__line"></div>
+							</div>
+
+						</li>
+						<li class="item__about">
+							<h3 class="sub__item">CSS/HTML</h3>
+							<div class="grey__line">
+								<div class="red__line"></div>
+							</div>
+						</li>
+						<li class="item__about">
+							<h3 class="sub__item">Figma</h3>
+							<div class="grey__line">
+								<div class="red__line"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="about__right">
+					<img class="img__about" src="image/about.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="video" class="video">
+		<div class="container">
+			<h2 class="video__title">Видео обо мне</h2>
+			<p class="video__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<iframe class="video_V" width="100%" height="600" src="https://www.youtube.com/embed/lkIFF4maKMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</section>
+
+	<section id="gallary" class="gallary">
+		<ul class="gallry__list">
+			<li class="gallry__item">
+				<a href="image/gal1.png" class="lightzoom">
+					<img src="image/gal1.png" class="gallary__img">
+				</a>
+			</li>
+			<li class="gallry__item">
+				<a href="image/gal2468.png" class="lightzoom">
+					<img src="image/gal2468.png" class="gallary__img">
+				</a>
+			</li>
+			<li class="gallry__item">
+				<a href="image/gal3.png" class="lightzoom">
+					<img src="image/gal3.png" class="gallary__img">
+				</a>
+			</li>
+			<li class="gallry__item">
+				<a href="image/gal2468.png" class="lightzoom">
+					<img src="image/gal2468.png" class="gallary__img">
+				</a>
+			</li>
+			<li class="gallry__item">
+				<a href="image/gal5.png" class="lightzoom">
+					<img src="image/gal5.png" class="gallary__img">
+				</a>
+			</li>
+			<li class="gallry__item">
+				<a href="image/gal3.png" class="lightzoom">
+					<img src="image/gal3.png" class="gallary__img">
+				</a>
+			</li>
+			<li class="gallry__item">
+				<a href="image/gal5.png" class="lightzoom">
+					<img src="image/gal5.png" class="gallary__img">
+				</a>
+			</li>
+			<li class="gallry__item">
+				<a href="image/gal1.png" class="lightzoom">
+					<img src="image/gal1.png" class="gallary__img">
+				</a>
+			</li>
+		</ul>
+	</section>
+
+
+</main>
+<footer id="footer" class=" footer">
+	<div class="container container__footer">
+	<div class="left__footer">
+		<h3 class="text1">
+			 Беляев Даниил
+		</h3>
+		<h3 class="text2">2023</h3>
+	</div>
+	<div class="right">
+		<ul class="footer__ul">
+			<li class="footer__li"><a class="footer__a" href=""><img class="footer__img" src="image/tele.png"></a></li>
+			<li class="footer__li"><a class="footer__a" href=""><img class="footer__img" src="image/inst.png"></a></li>
+			<li class="footer__li"><a class="footer__a" href=""><img class="footer__img" src="image/wat.png"></a></li>
+			
+		</ul>
+	</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+ 			jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+		</script>
+		<script src="slider.js" type="text/javascript"></script>
+<script type="text/javascript" src="MenuOpen.js"></script>
+</body>
+</html>
